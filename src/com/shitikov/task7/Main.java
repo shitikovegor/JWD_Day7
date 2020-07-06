@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.print("1 — английский\n2 - белорусский\nлюбой — русский\nВведите цифру: ");
+        System.out.print("1 — английский\n2 - белорусский\nлюбой — русский\n");
         int input = 0;
         try(Scanner scanner = new Scanner(System.in)) {
             for (int j = 0; j < 3; j++) {
